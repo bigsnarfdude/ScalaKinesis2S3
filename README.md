@@ -1,6 +1,5 @@
 ScalaKinesis2S3
 ===============
-# kinesis-to-s3
 
 Application for copying Amazon Kinesis data to S3.
 
