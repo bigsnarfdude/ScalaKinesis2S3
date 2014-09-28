@@ -1,8 +1,6 @@
-name := "p3-sink"
+name := "example-sink"
 
 version := "0.1"
-
-organization := "platform3.co"
 
 scalaVersion := "2.10.4"
 
