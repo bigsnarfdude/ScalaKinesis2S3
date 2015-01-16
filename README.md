@@ -5,7 +5,7 @@ Application for copying Amazon Kinesis data to S3.
 
 ## Usage
 
-1. git clone https://github.com/bigsnarfdude/ScalaKinesis2S3
+1. `git clone https://github.com/bigsnarfdude/ScalaKinesis2S3`
 2. Configure your application (start with the template `config.properties`)
 3. Configure AWS access credentials:
     1. Locally, set either
