@@ -8,7 +8,7 @@ scalaVersion := "2.11.4"
 libraryDependencies ++= Seq(
     "com.amazonaws"                   %  "amazon-kinesis-client"      % "1.2.1",
     "com.amazonaws"                   %  "aws-java-sdk"               % "1.9.34",
-    "com.amazonaws"                   %  "amazon-kinesis-connector"   % "1.1.1"
+    "com.amazonaws"                   %  "amazon-kinesis-connectors"   % "1.1.1"
 )
 
 // repos
@@ -25,7 +25,5 @@ resolvers ++= Seq(
     Resolver.url("play-plugin-snapshots", new URL("http://repo.scala-sbt.org/scalasbt/sbt-plugin-snapshots/"))(Resolver.ivyStylePatterns),
     Resolver.url("Alex's GitHub Repository", url("http://alexanderjarvis.github.com/snapshots/"))(Resolver.ivyStylePatterns),
     // For scalazon
-    "BintrayJCenter" at "http://jcenter.bintray.com",
-    // Self hosted jar file for amazon-kinesis-connectors library
-    "AWS Snapshots" at "http://www.platform3.mavenrepo.s3.amazonaws.com/snapshots/"
+    "BintrayJCenter" at "http://jcenter.bintray.com"
   )
