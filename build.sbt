@@ -8,7 +8,7 @@ scalaVersion := "2.11.4"
 libraryDependencies ++= Seq(
     "com.amazonaws"                   %  "amazon-kinesis-client"      % "1.2.1",
     "com.amazonaws"                   %  "aws-java-sdk"               % "1.9.34",
-    "com.amazonaws"                   %  "amazon-kinesis-connectors"   % "1.1.1"
+    "com.amazonaws"                   %  "amazon-kinesis-connectors"   % "1.2.0"
 )
 
 // repos
