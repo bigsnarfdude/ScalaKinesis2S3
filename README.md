@@ -38,3 +38,5 @@ the runnable jar. See [the AWS licensing terms](AMAZON_SOFTWARE_LICENSE.txt).
 The [Kinesis Connector sample code](https://github.com/awslabs/amazon-kinesis-connectors/tree/master/src/main/samples)
 contains code for copying Kinesis data to S3, but is not easily reusable. This application
 contains the minimal code for the copying process and nothing else.
+
+.
